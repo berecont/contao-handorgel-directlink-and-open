@@ -1,6 +1,6 @@
   document.addEventListener('DOMContentLoaded', function () {
 
-	var accordion = new handorgel(document.querySelector('.handorgel'), {
+	var accordion = new handorgel(document.querySelector('.content-accordion'), {
 	  multiSelectable: true, // Kann geändert werden, je nach gewünschtem Verhalten
 	  collapsible: true
 	});
